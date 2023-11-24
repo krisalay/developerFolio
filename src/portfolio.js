@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "Enthusiastic about crafting software solutions that creatively address challenges and pave the way for innovation."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -66,50 +66,60 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "golang",
-      // icon: "https://icons8.com/icon/7ej5ASIwdQXG/go-logo",
       fontAwesomeClassname: "fab fa-golang"
     },
-    // {
-    //   skillName: "python",
-    //   // icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "nodejs",
-    //   fontAwesomeClassname: "fab fa-node"
-    // },
-    // {
-    //   skillName: "typescript",
-    //   fontAwesomeClassname: "programming lang-typescript"
-    // },
-    // {
-    //   skillName: "postgresql",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-bash"
-    // },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "postgresql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "typescript",
+      fontAwesomeClassname: "fas fa-t"
+    },
+    {
+      skillName: "bash",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "redis",
+      fontAwesomeClassname: "fas fa-layer-group"
+    },
+    {
+      skillName: "kafka",
+      fontAwesomeClassname: "fas fa-sitemap"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "javascript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "pandas",
+      fontAwesomeClassname: "fas fa-chart-column"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -373,7 +383,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+92-0000000000",

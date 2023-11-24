@@ -23,13 +23,15 @@ export default function Blogs() {
   useEffect(() => {
     if (blogSection.displayMediumBlogs === "true") {
       const getProfileData = () => {
-        fetch("/blogs.json")
+        fetch("/developerFolio/blogs.json")
           .then(result => {
+            console.log(result);
             if (result.ok) {
               return result.json();
             }
           })
           .then(response => {
+            console.log(response)
             setMediumBlogsFunction(response.items);
           })
           .catch(function (error) {
