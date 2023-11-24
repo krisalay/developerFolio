@@ -27,12 +27,12 @@ jobs:
           node-version: 18.x
 
       - name: Update npm 🚀
-        run: npm install -g npm@latest
+        run: npm install -g yarn@latest
 
       - name: Install
-        run: npm install
+        run: yarn install
       - name: Build
-        run: npm run build
+        run: yarn run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
