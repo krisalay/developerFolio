@@ -29,10 +29,10 @@ jobs:
       - name: Update npm 🚀
         run: npm install -g npm@latest
 
-      - name: Install and Build 🔧 # Build the Project
-        run: |
-          npm install
-          npm run build
+      - name: Install
+        run: npm install
+      - name: Build
+        run: npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
